@@ -1,0 +1,23 @@
+{
+  "source_url": "https://raw.githubusercontent.com/Hong-Kong-Districts-Info/hkdatasets/9d009101be468758a8f73a2b425a85dea119731f/data-raw/hkstreetnames20.csv",
+  "commit": "9d009101be468758a8f73a2b425a85dea119731f",
+  "retrieved": "2026-11-14",
+  "raw_rows": 4603,
+  "eligible": 4524,
+  "rejected": {
+    "duplicate_pair": 59,
+    "empty_or_missing_script": 20
+  },
+  "sample_seed": 2026,
+  "pilot_seed": 2025,
+  "review_seed": 2050,
+  "pilot_changes": 0,
+  "sample_size": 500,
+  "human_checked": 0,
+  "sha256": "31f167eb4e97e96818c5666a0492d60e0c1b3f4911c21902b4ff1b89a6ec0e35",
+  "counts": {
+    "conventional": 447,
+    "alternative": 35,
+    "one_sided": 18
+  }
+}

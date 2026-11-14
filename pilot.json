@@ -1,0 +1,402 @@
+[
+  {
+    "id": "HK00698",
+    "source_text": "FAIRVIEW PARK SECTION B, 6TH STREET",
+    "target_text": "錦綉花園Ｂ段第六街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK03976",
+    "source_text": "TUNG LO WAN HILL ROAD",
+    "target_text": "銅鑼灣山路",
+    "v1": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK01445",
+    "source_text": "KAK TIN VILLAGE 2ND STREET",
+    "target_text": "隔田村第二街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK04416",
+    "source_text": "YAU HONG STREET",
+    "target_text": "有康街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00005",
+    "source_text": "4TH LANE KEI LUN WAI",
+    "target_text": "麒麟圍４巷",
+    "v1": [
+      "LANE",
+      "巷",
+      "conventional"
+    ],
+    "v2": [
+      "LANE",
+      "巷",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK03101",
+    "source_text": "SHA KOK MEI TWELFTH LANE",
+    "target_text": "沙角尾村十二巷",
+    "v1": [
+      "LANE",
+      "巷",
+      "conventional"
+    ],
+    "v2": [
+      "LANE",
+      "巷",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK03137",
+    "source_text": "SHAM TSZ STREET",
+    "target_text": "深慈街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK01929",
+    "source_text": "LO WAI ROAD",
+    "target_text": "老圍路",
+    "v1": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00555",
+    "source_text": "CONDUIT ROAD",
+    "target_text": "干德道",
+    "v1": [
+      "ROAD",
+      "道",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "道",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK03195",
+    "source_text": "SHEK TONG STREET",
+    "target_text": "石塘街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK03343",
+    "source_text": "SILVER STREAM PATH",
+    "target_text": "銀泉徑",
+    "v1": [
+      "PATH",
+      "徑",
+      "conventional"
+    ],
+    "v2": [
+      "PATH",
+      "徑",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00821",
+    "source_text": "FOURTH STREET TAI WAI",
+    "target_text": "大圍第四街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00367",
+    "source_text": "CHIK CHOI LANE",
+    "target_text": "積財里",
+    "v1": [
+      "LANE",
+      "里",
+      "conventional"
+    ],
+    "v2": [
+      "LANE",
+      "里",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00993",
+    "source_text": "HA SAN WAI ROAD",
+    "target_text": "下新圍路",
+    "v1": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK01762",
+    "source_text": "LADDER STREET TERRACE",
+    "target_text": "樓梯臺",
+    "v1": [
+      "TERRACE",
+      "臺",
+      "conventional"
+    ],
+    "v2": [
+      "TERRACE",
+      "臺",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK03136",
+    "source_text": "SHAM TSENG TSUEN ROAD",
+    "target_text": "深井村路",
+    "v1": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00834",
+    "source_text": "FU KONG SHAN ROAD",
+    "target_text": "富崗山路",
+    "v1": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK03430",
+    "source_text": "STAR STREET",
+    "target_text": "星街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00418",
+    "source_text": "CHOI SHEK ROAD",
+    "target_text": "彩石道",
+    "v1": [
+      "ROAD",
+      "道",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "道",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00238",
+    "source_text": "CHAPEL ROAD",
+    "target_text": "教堂路",
+    "v1": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK04250",
+    "source_text": "WING LEE STREET",
+    "target_text": "永利街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00564",
+    "source_text": "COOKE STREET",
+    "target_text": "曲街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK01620",
+    "source_text": "KIU HING ROAD",
+    "target_text": "僑興路",
+    "v1": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "路",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK01580",
+    "source_text": "KIN TAK STREET",
+    "target_text": "建德街",
+    "v1": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "v2": [
+      "STREET",
+      "街",
+      "conventional"
+    ],
+    "changed": false
+  },
+  {
+    "id": "HK00228",
+    "source_text": "CHAK ON ROAD",
+    "target_text": "澤安道",
+    "v1": [
+      "ROAD",
+      "道",
+      "conventional"
+    ],
+    "v2": [
+      "ROAD",
+      "道",
+      "conventional"
+    ],
+    "changed": false
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "version": "1.0-before-pilot",
+  "scope": "Observed generic correspondence only; no claim about historical translation direction or whole-name strategy.",
+  "canonical": {"STREET":["街"],"ROAD":["路","道"],"LANE":["巷","里"],"PATH":["徑"],"AVENUE":["道"],"DRIVE":["道"],"TERRACE":["臺","台"],"SQUARE":["廣場"],"CIRCUIT":["圍"],"CRESCENT":["彎"],"CLOSE":["里"],"COURT":["閣"],"HIGHWAY":["公路"],"TUNNEL":["隧道"],"BRIDGE":["橋"],"INTERCHANGE":["交匯處"],"BOULEVARD":["大道"]},
+  "categories": ["conventional","alternative","one_sided","unresolved"],
+  "priority": "If both generics missing: unresolved; exactly one missing: one_sided; both found and in canonical map: conventional; otherwise: alternative. Missing means not captured by this lexicon, not proof of omission."
+}
