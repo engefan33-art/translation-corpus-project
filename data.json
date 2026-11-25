@@ -405,7 +405,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK00219",
@@ -575,7 +575,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK00319",
@@ -626,7 +626,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK00377",
@@ -1884,7 +1884,7 @@
     "zh_generic": "里",
     "category": "conventional",
     "key_term": "LANE",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01078",
@@ -2173,7 +2173,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01240",
@@ -2190,7 +2190,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01251",
@@ -2326,7 +2326,7 @@
     "zh_generic": "徑",
     "category": "conventional",
     "key_term": "PATH",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01318",
@@ -2411,7 +2411,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01352",
@@ -2445,7 +2445,7 @@
     "zh_generic": "道",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01404",
@@ -2921,7 +2921,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01675",
@@ -3040,7 +3040,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01785",
@@ -3091,7 +3091,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01802",
@@ -3125,7 +3125,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01820",
@@ -3142,7 +3142,7 @@
     "zh_generic": "道",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01827",
@@ -3261,7 +3261,7 @@
     "zh_generic": "路",
     "category": "alternative",
     "key_term": "PATH",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01898",
@@ -3295,7 +3295,7 @@
     "zh_generic": "道",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK01924",
@@ -3567,7 +3567,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK02155",
@@ -3788,7 +3788,7 @@
     "zh_generic": "里",
     "category": "conventional",
     "key_term": "LANE",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK02222",
@@ -4230,7 +4230,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK02476",
@@ -4553,7 +4553,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK02626",
@@ -5165,7 +5165,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK02939",
@@ -5216,7 +5216,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK02959",
@@ -5386,7 +5386,7 @@
     "zh_generic": "道",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03074",
@@ -5607,7 +5607,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03199",
@@ -5675,7 +5675,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03248",
@@ -5811,7 +5811,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03326",
@@ -6202,7 +6202,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03502",
@@ -6236,7 +6236,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03510",
@@ -6270,7 +6270,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03524",
@@ -6321,7 +6321,7 @@
     "zh_generic": "坊",
     "category": "alternative",
     "key_term": "SQUARE",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03546",
@@ -6423,7 +6423,7 @@
     "zh_generic": "橋",
     "category": "conventional",
     "key_term": "BRIDGE",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03605",
@@ -6525,7 +6525,7 @@
     "zh_generic": "里",
     "category": "conventional",
     "key_term": "LANE",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03655",
@@ -6661,7 +6661,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03760",
@@ -6814,7 +6814,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03816",
@@ -7018,7 +7018,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03918",
@@ -7103,7 +7103,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK03986",
@@ -7307,7 +7307,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04085",
@@ -7375,7 +7375,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04116",
@@ -7409,7 +7409,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04136",
@@ -7562,7 +7562,7 @@
     "zh_generic": "道",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04215",
@@ -7715,7 +7715,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04286",
@@ -7766,7 +7766,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04301",
@@ -7783,7 +7783,7 @@
     "zh_generic": "里",
     "category": "conventional",
     "key_term": "LANE",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04309",
@@ -7919,7 +7919,7 @@
     "zh_generic": "道",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04341",
@@ -8004,7 +8004,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04378",
@@ -8055,7 +8055,7 @@
     "zh_generic": "里",
     "category": "conventional",
     "key_term": "LANE",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04422",
@@ -8174,7 +8174,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04496",
@@ -8225,7 +8225,7 @@
     "zh_generic": "街",
     "category": "conventional",
     "key_term": "STREET",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04515",
@@ -8293,7 +8293,7 @@
     "zh_generic": "徑",
     "category": "conventional",
     "key_term": "PATH",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04546",
@@ -8361,7 +8361,7 @@
     "zh_generic": "路",
     "category": "conventional",
     "key_term": "ROAD",
-    "notes": "Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim."
+    "notes": "Student review recorded."
   },
   {
     "id": "HK04558",

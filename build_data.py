@@ -38,10 +38,32 @@ for r in sample:
     r['key_term']=r['en_generic']; r['notes']='Automatic v2 lexical annotation; human verification pending. Source/target are display labels, not a historical direction claim.'
 sample.sort(key=lambda r:r['id'])
 audit=random.Random(2050).sample(sample,50)
-with (P/'human-review-50.csv').open('w',encoding='utf-8-sig',newline='') as f:
-    fields=['id','source_text','target_text','category','source_url','verified_by_student','error_found','corrected_source_text','corrected_target_text','corrected_category','review_notes']
-    w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(audit)
+review_path=P/'human-review-50.csv'
+fields=['id','source_text','target_text','category','source_url','verified_by_student','error_found','corrected_source_text','corrected_target_text','corrected_category','review_notes']
+if review_path.exists():
+    with review_path.open(encoding='utf-8-sig',newline='') as f:
+        reviews=list(csv.DictReader(f))
+    assert {r['id'] for r in reviews}=={r['id'] for r in audit}, 'Review sample changed; existing review retained.'
+    by_id={r['id']:r for r in sample}
+    for review in reviews:
+        row=by_id[review['id']]
+        assert all(review[k]==row[k] for k in ('source_text','target_text','category','source_url')), 'Reviewed source changed.'
+        if review['verified_by_student'].strip().lower()=='yes':
+            assert review['error_found'].strip().lower() in ('yes','no'), 'Missing review outcome.'
+            for field in ('source_text','target_text','category'):
+                correction=review.get('corrected_'+field,'').strip()
+                if correction:
+                    row[field]=correction
+            row['en_generic'],row['zh_generic'],_=classify(row['source_text'],row['target_text'])
+            row['key_term']=row['en_generic']
+            row['human_checked']='yes'
+        row['notes']='Student review recorded.' if row['human_checked']=='yes' else 'Automatic v2 annotation; not manually checked.'
+else:
+    with review_path.open('w',encoding='utf-8-sig',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(audit)
+    reviews=[]
 meta=dict(source_url=URL,commit=COMMIT,retrieved=DATE,raw_rows=len(rows),eligible=len(eligible),rejected=dict(reject),sample_seed=2026,pilot_seed=2025,review_seed=2050,pilot_changes=sum(x['changed'] for x in plog),sample_size=500,human_checked=0,sha256=hashlib.sha256(raw.read_bytes()).hexdigest(),counts=dict(collections.Counter(r['category'] for r in sample)))
+meta.update(human_checked=sum(r['human_checked']=='yes' for r in sample),human_review_errors=sum(r.get('error_found','').lower()=='yes' for r in reviews),human_review_corrections=sum(any(r.get('corrected_'+f,'').strip() for f in ('source_text','target_text','category')) for r in reviews))
 for name,obj in [('data.json',sample),('metadata.json',meta)]: (P/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf-8')
 (P/'data.js').write_text('window.CORPUS='+json.dumps(sample,ensure_ascii=False)+';\nwindow.META='+json.dumps(meta,ensure_ascii=False)+';',encoding='utf-8')
 with (P/'corpus.csv').open('w',encoding='utf-8-sig',newline='') as f:
