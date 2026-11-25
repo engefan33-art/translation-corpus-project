@@ -1,7 +1,8 @@
 // Runtime render checks with a minimal DOM stub; not a substitute for browser visual QA.
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const elements=new Map();function element(k){if(!elements.has(k))elements.set(k,{innerHTML:'',textContent:'',value:'',hidden:false,focus(){},setSelectionRange(){}});return elements.get(k)}
-const ctx={window:{},document:{querySelector:element,documentElement:{},querySelectorAll:()=>[],addEventListener(){}},location:{search:''},URLSearchParams,history:{pushState(a,b,url){ctx.location.search=url}},console};vm.createContext(ctx);
+const handlers={};
+const ctx={window:{},document:{querySelector:element,documentElement:{},querySelectorAll:()=>[],addEventListener(type,callback){handlers[type]=callback}},location:{search:''},URLSearchParams,history:{pushState(a,b,url){ctx.location.search=url}},console};vm.createContext(ctx);
 for(const f of ['data.js','content.js','app.js'])vm.runInContext(fs.readFileSync(__dirname+'/'+f,'utf8'),ctx);
 function run(s){return vm.runInContext(s,ctx)}
 assert.equal(run('filtered().length'),500);assert.equal((element('#tbody').innerHTML.match(/<tr>/g)||[]).length,500);
@@ -10,4 +11,13 @@ run("update({cat:'',checked:'yes'})");assert.equal(run('filtered().length'),50);
 run("update({checked:'',q:'ROAD'})");assert(run('filtered().length')>0);assert(run("filtered().every(r=>(r.source_text+' '+r.target_text).toLowerCase().includes('road'))"));
 run("update({q:'',eg:'ROAD',zg:'道'})");assert(run("filtered().every(r=>r.en_generic==='ROAD'&&r.zh_generic==='道')"));let n=run('filtered().length');run('read();render()');assert.equal(run('filtered().length'),n);
 for(const page of ['report','codebook','ai'])for(const lang of ['en','zh','zh-Hans']){run(`update({page:'${page}',lang:'${lang}'})`);assert(element('#document').innerHTML.length>500)}
+run("update({page:'report',lang:'en'})");assert(element('#document').innerHTML.includes('Learning report: Between Streets'));
+run("update({page:'codebook',lang:'en'})");assert.equal((element('#document').innerHTML.match(/Theory source and application/g)||[]).length,4);
+run("update({page:'codebook',lang:'zh'})");assert.equal((element('#document').innerHTML.match(/理論來源及應用/g)||[]).length,4);assert(!element('#document').innerHTML.includes('Boundary:'));
+run("update({q:'',cat:'',checked:'',eg:'',zg:'',page:'explore'})");
+handlers.click({preventDefault(){},target:{closest(){return {dataset:{term:'∅',axis:'zh'}}}}});
+assert.equal(run('state.zg'),'∅');assert.equal(run('state.eg'),'');assert(run("filtered().every(r=>r.zh_generic==='∅')"));assert(run('filtered().length')>0);
+handlers.click({preventDefault(){},target:{closest(){return {dataset:{term:'∅',axis:'en'}}}}});
+assert.equal(run('state.eg'),'∅');assert.equal(run('state.zg'),'');assert(run("filtered().every(r=>r.en_generic==='∅')"));
+run("update({q:'ROAD',eg:'',zg:''})");assert(element('#kwic').innerHTML.includes('context-left'));assert(element('#kwic').innerHTML.includes('<mark>ROAD</mark>'));
 console.log('PASS: 500 records, category counts, 50 human-checked records, search, paired filtering, URL restoration, all three language variants. Browser visual QA not available.');
